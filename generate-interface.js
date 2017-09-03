@@ -1,3 +1,7 @@
+// My original version of this code had an onload="generatePage();" attribute on the body.
+// For the version on GitHub, though, I have replaced it with the following line:
+window.addEventListener("load", generatePage, false);
+
 function generatePage() {
 	addStyle();
 
